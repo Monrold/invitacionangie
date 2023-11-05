@@ -9,9 +9,18 @@ import circleTwo from "../images/circle-2.svg";
 import circleThree from "../images/circle-3.svg";
 import algae from "../images/algae.svg";
 import ogImage from "../images/og-image.png";
-
-
 ---
+
+<style define:vars={{ shapeBackgroundImage: `url("${wave.src}")`}}>
+    .ola{
+        background-image: var(--shapeBackgroundImage);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20vh;
+    }
+</style>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -46,8 +55,7 @@ import ogImage from "../images/og-image.png";
             <h2 class="text-white text-center mt-4 pb-4">Temática de disfraces 🥸 de tu personaje favorito <span class="font-black">Disney/infantil</span></h2>            
         </div>
         </div>
-    <div class="">
-        <img class="object-fill w-full max-w-full" src={wave.src} alt="">
+    <div class="ola">
     </div>
 </div>   
 <div class="my-4 relative sm:hidden">

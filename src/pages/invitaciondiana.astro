@@ -8,7 +8,7 @@ import circle from "../images/circle.svg";
 import circleTwo from "../images/circle-2.svg";
 import circleThree from "../images/circle-3.svg";
 import ogImage from "../images/og-image.png";
-import rapunzelImage from "../images/rapunzel-image.png";
+import algae from "../images/algae.svg";
 ---
 
 <style define:vars={{ shapeBackgroundImage: `url("${wave.src}")`}}>
@@ -47,12 +47,11 @@ import rapunzelImage from "../images/rapunzel-image.png";
                 <source src="https://pub-c6f56a3478ba4de7a25f81a088d063ba.r2.dev/disney-intro.mp4" type="video/mp4">
             </video>
         </div>
-        <div>
-            <h2 class="text-[#652E4B] font-semibold text-center">Diana Valeria</h2>
+         <div>
             <h2 class="text-white font-semibold text-center">Únete a la magia de</h2>
             <h2 class="text-white font-semibold text-center text-4xl">mi cumpleaños</h2>
-            <h2 class="text-white font-semibold text-center text-4xl">número cuatro</h2>
-            <h2 class="text-white text-center mt-8">18 de Noviembre a las 4 pm</h2>
+            <h2 class="text-white text-center mt-8">25 de Noviembre a las 4 pm</h2>
+            <img class="mx-auto mt-4" src={algae.src} alt="">
             <h2 class="text-white text-center mt-4 pb-4">Temática de disfraces 🥸 de tu personaje favorito <span class="font-black">Disney/infantil</span></h2>            
         </div>
         </div>
@@ -65,7 +64,7 @@ import rapunzelImage from "../images/rapunzel-image.png";
             <div class="flex my-4 shadow-lg rounded-xl w-64 p-4">
                 <div>
                 <h3>Ir al salón por maps</h3>
-                <h3 class="text-xs mr-2">Salón de Fiestas de Fraccionamiento Valle del Sol 1</h3>
+                <h3 class="text-xs mr-2">Jardin de eventos “Vista Hermosa”</h3>
                 </div>
                 <img src={locationArrow.src} alt="">
             </div>
@@ -82,12 +81,10 @@ import rapunzelImage from "../images/rapunzel-image.png";
     <div class="my-8 mx-4">
         <h2 class="text-center">¡Te espero!</h2>
         <h2 class="text-center">Recuerda confirmar tu asistencia <span class="font-bold">por Whatsapp</span></h2>
-        <h2 class="text-center mt-4">Se enviará el código de acceso por WhatsApp</h2>
     </div>
     <img class="absolute bottom-20 left-6" src={circle.src} alt="">
     <img class="absolute bottom-20 right-5"  src={circleTwo.src} alt="">
     <img class="absolute top-0 right-10"  src={circleThree.src} alt="">
 </div>
-<img class="mx-auto mt-0 mb-0 w-72 items-end" src={rapunzelImage.src} alt="">
 </body>
 </html>
